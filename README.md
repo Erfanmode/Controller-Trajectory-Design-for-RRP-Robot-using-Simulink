@@ -7,4 +7,8 @@ end-effector in a 2D environment filled with obstacles
 ![image](https://github.com/user-attachments/assets/a9e62c6f-e5a6-4db0-b068-d306e1304233)
 ![{7C13290A-BBFC-4C7B-B331-4ECDC00A9773}](https://github.com/user-attachments/assets/d318a9ad-8a08-49fd-bd4c-c6bb01da90cd)
 ![image](https://github.com/user-attachments/assets/481656b9-7adc-4c97-b175-3897caa946c0)
-
+## This project contains:
+- RRP Robot control and trajectory design
+- Obstacles avoidance using an adaptive potential field with singularity avoidance algorithm
+- Obstacles avoidance using Dijkstra algorithm
+- Control using PID in a saturated actuator
