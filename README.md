@@ -1,4 +1,4 @@
-# Controller & Trajectory Design for RRP Robot with Obstacles Avoidance Capability using Simulink
+# Controller & Trajectory Design for RRP Robot with Obstacles Avoidance Capability using Simulink - Fall 2023
 This work is the Robotics Course Project of Mechanical Engineering Department at Sharif University of Technology.
 In this project I have designed a RRP Robot which its end-effector is controlled using PID method.
 Additionally, an adaptive potential field with singularity avoidance algorithm and Dijkstra are used to design the path of the
@@ -8,7 +8,7 @@ end-effector in a 2D environment filled with obstacles
 ![{7C13290A-BBFC-4C7B-B331-4ECDC00A9773}](https://github.com/user-attachments/assets/d318a9ad-8a08-49fd-bd4c-c6bb01da90cd)
 ![image](https://github.com/user-attachments/assets/481656b9-7adc-4c97-b175-3897caa946c0)
 ## This project contains:
-- RRP Robot control and trajectory design
-- Obstacles avoidance using an adaptive potential field with singularity avoidance algorithm
-- Obstacles avoidance using Dijkstra algorithm
-- Control using PID in a saturated actuator
+- `model` - RRP Robot control and trajectory design on Simulink and control using PID in a saturated actuator
+- `Path_Generation_Potential_Field` - Obstacles avoidance using an adaptive potential field with singularity avoidance algorithm
+- `Path_Generation_Dijkstra` - Obstacles avoidance using Dijkstra algorithm
+  
